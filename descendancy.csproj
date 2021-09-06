@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Cheepicus12.font" />
+    <None Remove="Fonts\Cheepicus_12x12.png" />
+    <None Remove="Fonts\IBM8x16.font" />
+    <None Remove="Fonts\IBM8x16.png" />
+    <None Remove="Fonts\spritesheet.font" />
+    <None Remove="Fonts\spritesheet.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GoRogue" Version="2.6.0" />
+    <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.0.1641" />
+    <PackageReference Include="SadConsole" Version="8.99.3" />
+    <PackageReference Include="SadConsole.GoRogueHelpers" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Fonts\Cheepicus12.font">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Cheepicus_12x12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\IBM8x16.font">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\IBM8x16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\spritesheet.font">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\spritesheet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Fonts\Cheepicus_12x12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

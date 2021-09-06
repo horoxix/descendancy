@@ -1,0 +1,9 @@
+﻿{
+    "FilePath": "spritesheet.png",
+    "GlyphHeight": 16,
+    "GlyphPadding": 0,
+    "GlyphWidth": 16,
+    "Name": "SpriteSheet",
+    "SolidGlyphIndex": 219,
+    "Columns":  47
+}
